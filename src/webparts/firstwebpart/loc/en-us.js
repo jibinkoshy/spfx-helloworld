@@ -1,7 +1,8 @@
-define([], function() {
+define([], function () {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
-    "DescriptionFieldLabel": "Description Field"
-  }
+    PropertyPaneDescription: "My WebPart Properties",
+    BasicGroupName: "List Properties",
+    ListFieldLabel: "List Tile",
+    ListUrl: "List Url",
+  };
 });

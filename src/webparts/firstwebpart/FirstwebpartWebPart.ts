@@ -10,7 +10,8 @@ import styles from "./FirstwebpartWebPart.module.scss";
 import * as strings from "FirstwebpartWebPartStrings";
 
 export interface IFirstwebpartWebPartProps {
-  description: string;
+  ListTitle: string;
+  ListUrl: string;
 }
 
 export default class FirstwebpartWebPart extends BaseClientSideWebPart<
@@ -27,11 +28,10 @@ export default class FirstwebpartWebPart extends BaseClientSideWebPart<
                 styles.subTitle
               }">Customize SharePoint experiences using Web Parts.</p>
               <p class="${styles.description}">${escape(
-      this.properties.description
+      this.properties.ListTitle
     )}</p>
-              <a href="https://aka.ms/spfx" class="${styles.button}">
-                <span class="${styles.label}">Learn more</span>
-              </a>
+    <p>${this.properties.ListUrl}</p>
+            
             </div>
           </div>
         </div>
@@ -53,8 +53,11 @@ export default class FirstwebpartWebPart extends BaseClientSideWebPart<
             {
               groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField("description", {
-                  label: strings.DescriptionFieldLabel,
+                PropertyPaneTextField("ListTitle", {
+                  label: strings.ListFieldLabel,
+                }),
+                PropertyPaneTextField("ListUrl", {
+                  label: strings.ListUrl,
                 }),
               ],
             },

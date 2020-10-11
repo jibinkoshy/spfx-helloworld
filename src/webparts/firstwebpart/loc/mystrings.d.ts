@@ -1,10 +1,11 @@
 declare interface IFirstwebpartWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
-  DescriptionFieldLabel: string;
+  ListFieldLabel: string;
+  ListUrl: string;
 }
 
-declare module 'FirstwebpartWebPartStrings' {
+declare module "FirstwebpartWebPartStrings" {
   const strings: IFirstwebpartWebPartStrings;
   export = strings;
 }
