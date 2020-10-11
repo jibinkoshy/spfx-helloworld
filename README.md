@@ -1,6 +1,8 @@
 # parakode-firstwebpart
 
-![image](https://user-images.githubusercontent.com/20209497/95679633-c3ee2c80-0b99-11eb-8398-0b6fbfd6fa22.png)
+![image](https://user-images.githubusercontent.com/20209497/95680432-3f9ea800-0b9f-11eb-9ac4-9d65d26d0f05.png)
+![image](https://user-images.githubusercontent.com/20209497/95680356-af606300-0b9e-11eb-83aa-8f2ff2a01892.png)
+![image](https://user-images.githubusercontent.com/20209497/95683103-c60eb600-0bae-11eb-8941-bd4234a2644e.png)
 
 ## Summary
 
@@ -73,3 +75,11 @@ This extension illustrates the following concepts:
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Publish SharePoint Framework applications to the Marketplace](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/publish-to-marketplace-overview)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+
+# gulp serve
+
+# gulp build
+
+# gulp bundle --ship
+
+# gulp package-solution --ship

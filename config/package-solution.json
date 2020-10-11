@@ -3,8 +3,8 @@
   "solution": {
     "name": "parakode-firstwebpart-client-side-solution",
     "id": "e216a5e8-03c1-47b2-9d56-b0ffd46668aa",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
+    "version": "2.2.0.0",
+    "includeClientSideAssets": false,
     "isDomainIsolated": false,
     "developer": {
       "name": "",
