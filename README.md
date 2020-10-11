@@ -4,6 +4,9 @@
 ![image](https://user-images.githubusercontent.com/20209497/95680356-af606300-0b9e-11eb-83aa-8f2ff2a01892.png)
 ![image](https://user-images.githubusercontent.com/20209497/95683103-c60eb600-0bae-11eb-8941-bd4234a2644e.png)
 
+-Add Custom Webpart Properties
+![image](https://user-images.githubusercontent.com/20209497/95691076-f7ed4000-0be1-11eb-8839-734a1fbbb31d.png)
+
 ## Summary
 
 Short summary on functionality and used technologies.

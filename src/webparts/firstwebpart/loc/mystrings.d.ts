@@ -3,6 +3,7 @@ declare interface IFirstwebpartWebPartStrings {
   BasicGroupName: string;
   ListFieldLabel: string;
   ListUrl: string;
+  PercentCompleted: string;
 }
 
 declare module "FirstwebpartWebPartStrings" {
